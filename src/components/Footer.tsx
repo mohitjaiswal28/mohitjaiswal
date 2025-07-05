@@ -63,14 +63,6 @@ const Footer = () => {
                 >
                   LinkedIn
                 </a>
-                <a
-                  href="https://twitter.com/mohitjaiswal28_"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Twitter
-                </a>
               </div>
             </div>
 
