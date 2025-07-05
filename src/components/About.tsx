@@ -39,18 +39,25 @@ const About = () => {
   const experiences =
     [
       {
-        "title": "Software Engineer Intern",
+        "title": "Software Engineer",
         "company": "Fictiv",
         "period": "Jan 2025 - Present",
-        "description": "Refactored frontend, built quoting features, and automated backend quoting with AWS Lambda. Resolved critical bugs and improved code stability with Jest tests in the Parts Library project.",
-        "tags": ["React", "TypeScript", "Node.js", "AWS", "Jest"]
+        "description": "",
+        "tags": ["React", "TypeScript", "Ant Design", "Node.js", "GraphQL", "AWS", "PostgreSQL"]
       },
       {
-        "title": "Frontend Engineer",
+        "title": "Software Engineer Intern",
+        "company": "Fictiv",
+        "period": "Jan 2025 - June 2025",
+        "description": "Contributed to core frontend (React) and backend (Node.js, GraphQL) features in a real-time quoting and manufacturing platform.",
+        "tags": ["React", "TypeScript", "Ant Design", "Node.js", "GraphQL", "AWS", "PostgreSQL"]
+      },
+      {
+        "title": "Frontend Engineer Intern",
         "company": "Bynry Inc.",
         "period": "June 2024 - Dec 2024",
         "description": "I led frontend performance optimization, achieving a 26% build time reduction, and integrated Mapbox for service order address tracking. I also developed the WX Module for streamlined work order management and implemented the TIA routing pattern for efficient navigation, alongside integrating high-performance RESTful APIs using Angular HTTPClient.",
-        "tags": ["Angular", "TypeScript", "Mapbox", "AWS", "RESTful APIs"]
+        "tags": ["Angular", "TypeScript", "Ant Design", "AWS", "REST"]
       }
     ];
 
@@ -97,12 +104,10 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="col-span-1 md:col-span-2">
                 <div className="space-y-4 text-lg text-balance">
-                  <p className="opacity-0 animate-fade-in animate-delay-100" style={{ animationPlayState: isVisible ? "running" : "paused" }}>
-                    Hello! I'm Mohit, a passionate software engineer with a love for creating elegant, efficient digital solutions. My journey in tech began in 2019, and since then, I've been on a continuous learning path, exploring various technologies and methodologies.
-                  </p>
-
                   <p className="opacity-0 animate-fade-in animate-delay-200" style={{ animationPlayState: isVisible ? "running" : "paused" }}>
-                    Experienced in React, Angular, TypeScript, and Tailwind CSS for frontend development and Node.js and Express for the backend. I have hands-on experience with AWS services such as IAM, EC2, VPC, S3, and, Lambda, enabling scalable cloud integrations and utilizing CloudFormation for efficient infrastructure provisioning.
+                    Experienced in React, Angular, TypeScript, and Tailwind CSS for frontend development and
+                    Node.js and Express for the backend. Beyond development, I bring an understanding of cloud infrastructure, having
+                    worked hands-on with AWS services (including IAM, EC2, VPC, S3, and Lambda) and Docker.
                   </p>
 
                   <p className="opacity-0 animate-fade-in animate-delay-300" style={{ animationPlayState: isVisible ? "running" : "paused" }}>

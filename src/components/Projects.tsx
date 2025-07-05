@@ -72,13 +72,12 @@ const Projects = () => {
     },
     {
       "id": 3,
-      "title": "Role-Based Access Control (RBAC) System",
-      "description": "Built a scalable RBAC system following a MVC architecture. Developed RESTful APIs for managing users, roles, and permissions, integrated seamlessly with the frontend.",
-      "image": "/assets/Projects/RBAC.png",
-      "tags": ['Angular', 'Node.js', 'MongoDB'],
-      "github": "https://github.com/mohitjaiswal28/rbac-backend",
-      "demo": "https://rbac-mohitjaiswal.netlify.app/",
-      "category": "web"
+      "title": "AppGen",
+      "description": "AppGen is a project scaffolding tool that empowers developers to launch clean, production-ready project structure. AppGen eliminates boilerplate, accelerates delivery, and enforces best practices from day one.",
+      "image": "/assets/Projects/npm.png",
+      "tags": ['Node.js', 'npm'],
+      "github": "https://github.com/mohitjaiswal28/appgen",
+      "category": "other"
     },
     {
       "id": 4,
@@ -89,15 +88,6 @@ const Projects = () => {
       "github": "https://github.com/mohitjaiswal28/AWS-Boto3",
       "category": "cloud",
     },
-    {
-      "id": 5,
-      "title": "mohitjaiswal-npm-package",
-      "description": "An npm package created to print my public profile links in an interactive way. Installable via npm install mohitjaiswal.",
-      "image": "/assets/Projects/npm.png",
-      "tags": ["npm", "JavaScript", "npm", ],
-      "github": "https://github.com/mohitjaiswal28/mohitjaiswal-npm-package",
-      "category": "other"
-    }
   ];
 
   const filteredProjects = filter === "all"
