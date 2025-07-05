@@ -95,7 +95,9 @@ const Hero = () => {
             </div>
 
             <p className={`text-lg text-muted-foreground max-w-xl transition-all duration-700 delay-300 transform ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-4'}`}>
-              Software Engineer skilled in building scalable web applications and cloud solutions. Expertise in React, Angular, Node.js, AWS, and database technologies.
+              Experienced in React, Angular, TypeScript, and Tailwind CSS for frontend development and
+              Node.js and Express for the backend. Beyond development, I bring an understanding of cloud infrastructure, having
+              worked hands-on with AWS services (including IAM, EC2, VPC, S3, and Lambda) and Docker.
             </p>
 
             <div className={`flex space-x-4 pt-2 transition-all duration-700 delay-400 transform ${isVisible ? 'opacity-100' : 'opacity-0 -translate-y-4'}`}>
