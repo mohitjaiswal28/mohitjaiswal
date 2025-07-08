@@ -56,7 +56,7 @@ const About = () => {
         "title": "Frontend Engineer Intern",
         "company": "Bynry Inc.",
         "period": "June 2024 - Dec 2024",
-        "description": "I led frontend performance optimization, achieving a 26% build time reduction, and integrated Mapbox for service order address tracking. I also developed the WX Module for streamlined work order management and implemented the TIA routing pattern for efficient navigation, alongside integrating high-performance RESTful APIs using Angular HTTPClient.",
+        "description": "I led frontend performance optimization, achieving a 16% build time reduction, and integrated Mapbox for service order address tracking. I also developed the WX Module for streamlined work order management and implemented the TIA routing pattern for efficient navigation, alongside integrating high-performance RESTful APIs using Angular HTTPClient.",
         "tags": ["Angular", "TypeScript", "Ant Design", "AWS", "REST"]
       }
     ];
