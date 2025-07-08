@@ -41,7 +41,7 @@ const About = () => {
       {
         "title": "Software Engineer",
         "company": "Fictiv",
-        "period": "Jan 2025 - Present",
+        "period": "July 2025 - Present",
         "description": "",
         "tags": ["React", "TypeScript", "Ant Design", "Node.js", "GraphQL", "AWS", "PostgreSQL"]
       },
